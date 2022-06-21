@@ -41,7 +41,7 @@ public:
     }
 
      int removeMin() {
-        // Write your code here
+        if(pq.empty()) return 0;
         int ans = pq[0];
         pq[0] = pq[pq.size()-1];
         pq.pop_back();
