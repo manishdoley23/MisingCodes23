@@ -1,6 +1,5 @@
 #include<unordered_map>
 string uniqueChar(string str) {
-	// Write your code here
 	string ans;
 	unordered_map<int, bool> map;
 	for(int i=0; i<str.size(); ++i){
